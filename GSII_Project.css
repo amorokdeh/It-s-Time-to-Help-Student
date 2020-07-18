@@ -1,0 +1,2267 @@
+  
+{
+-webkit-box-sizing: border-box;
+-moz-box-sizing: border-box;
+box-sizing: border-box
+margin:0px;
+
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    margin: 0px;
+    width: 100%;
+}
+
+button
+{
+    font-family: "Roboto", sans-serif;
+  
+}
+/* header layout */ 
+header
+{
+    
+   display: flex;
+    width: 100%;
+    height: 10vh;
+    margin: auto;
+    align-items: center;
+    
+}
+
+
+
+/* make a style for logo and Navigation */ 
+.logo-container, .nav-links
+{
+    display: flex;    
+}
+
+.logo-container
+{
+    flex: 1; /* make a space */
+    margin-top:15px;
+    
+    
+}
+
+
+.nav-links
+{
+    justify-content: space-around; /* make space among Nav */
+    list-style: none; /* remove the points */ 
+   
+    
+   
+}
+.nav-links
+{
+    color: black;
+    font-size: 18px;
+    text-decoration: none; /* remove underline */ 
+     padding: 14px 50px;
+    
+}
+
+nav
+{
+    flex: 3;
+    
+}
+
+
+/*############# hover nav ##################################### */ 
+
+li .nav-links:hover {
+  background-color: #00A089;
+  color: white;
+}
+
+/*################### the Main Section start ############ */
+.presentation 
+{
+  display: flex;
+    width: 90%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+}
+
+
+
+.introduction
+{
+    flex: 1;
+}
+
+.cover-1
+{
+    flex: 1;
+    height:40vh;
+    
+    
+}
+
+.cover-1 img
+{
+    height: 100%;
+    filter: drop-shadow(0px 5px 3px #00A089);
+    animation: drop 1.5s ease;
+    
+}
+
+@keyframes drop
+{
+    0%{
+        opacity: 0;
+        transform: translateY(-80px);
+    }
+    
+    100%{
+        
+          opacity: 1;
+        transform: translateY(0px);
+    }
+}
+
+/* ########## text before the sign in and up system ######### */
+.sign-text h1
+{
+    font-size: 36px;
+    font-weight: 500;
+    background: linear-gradient(to right, #f9f9f9, #00A089);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;  
+    margin: 2% 1% -20% 0%;
+}
+
+.sign-text p
+{
+    margin-bottom: 5px;
+    font-size: 22px;
+    color: #f9f9f9;
+    margin: 21% 5% 0% 0%;
+}
+/* ################ Sign in and up button ################# */ 
+.cta 
+{
+   padding: 2% 0% 2% 0%; 
+    
+}
+
+.sign-in
+{
+   border: 2px solid #F79421;
+    background: transparent;
+    color: #F79421;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    margin: 5% 1% 5% 0%;
+
+}
+
+.sign-up
+{
+    background: transparent;
+    color: #00A089;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 16px;
+    border: 2px solid #00A089;
+    border-radius: 4px;
+    margin: 5% 2% 5% 5%;
+    }
+
+.sinUp { 
+    text-decoration: none;
+    color:#00A089;
+    
+} 
+/* ########## hover effect of the sign in and up buttons ########## */
+.sign-in:hover
+{
+  background-color: #F79421; 
+  color: white; 
+  border: 3px solid #F79421;
+}
+
+.sinUp:hover
+{
+  background-color: #00A089; 
+  color: white; 
+  border: 3px solid #00A089;
+}
+
+.sign-up:hover
+{
+  background-color: #00A089; 
+  /*color: white; */
+  border: 3px solid #00A089;
+}
+
+
+
+.logIn1{
+    text-decoration: none;
+    color: white;
+}
+/* ######################## first blue box in head ############ */
+.box-top
+{
+    position:absolute;
+    width: 100%;
+    height: 65%;
+    background:#022447; 
+    border:none;
+    padding: 0px;
+    margin: none;
+    top:80px;
+    z-index: -1;
+}
+
+
+
+
+
+/*################## Schools Section ########################*/ 
+
+
+.school-boxes
+{
+    justify-content: space-around; /* make space among Nav */
+    list-style: none; /* remove the points */ 
+    
+} 
+.school-boxes
+{
+    color: black;
+    font-size: 18px;
+    text-decoration: none; /* remove underline */ 
+    /* padding: 14px 50px;*/
+    /*display: flex;*/
+}
+/* layout the school-boxes */
+.schools
+{
+    display:flex;
+    width: 90%;
+    align-items: center;
+    margin: auto;
+    justify-content: space-around;
+    text-align-last:center; 
+    margin-top: -30px;
+    
+}
+
+.secondary
+{
+    
+        width: 300px;
+        height: 150px;
+        background:#8195CB; 
+        border:none;
+        padding: 0px;
+        margin: 10px;
+        z-index: -1; 
+        align-content: center;
+        border-radius: 12px;
+
+}
+
+.primary
+{
+      
+        width: 300px;
+        height: 150px;
+        background:#FF6F0C; 
+        border:none;
+        padding: 0px;
+        margin: 10px;
+        z-index: -1; 
+        align-content: center;
+        border-radius: 12px;
+
+}
+
+.high
+{
+        width: 300px;
+        height: 150px;
+        background:#022447; 
+        border:none;
+        padding: 0px;
+        margin: 10px;
+        z-index: -1; 
+        align-content: center;
+        border-radius: 12px;
+
+} 
+
+.comperhensive
+{
+         width: 300px;
+        height: 150px;
+        background:#08454F; 
+        border:none;
+        padding: 0px;
+        margin: 10px;
+        z-index: -1; 
+        align-content: center;
+        border-radius: 12px;
+}
+
+
+.school-links a:link {
+    text-decoration: none;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+   
+}
+
+.school-links a:visited {
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 14px 25px;
+
+}
+
+.school-links a:hover {
+    text-decoration: underline;
+}
+
+ .school-links a:active {
+    text-decoration: underline;
+}
+
+
+.school-links
+{
+    display:flex;
+    width: 90%;
+    /*align-items: center;*/
+    margin: auto;
+    justify-content: space-around;
+    font-size: 22px;
+    font-weight:300;
+}
+.school-1
+{
+    flex: 1;
+       /* width: 300px;
+        height: 150px; */
+        /*background:#08454F;*/ 
+    border:none;
+    margin-top: -75px;
+    margin-left: 0px;
+    border-radius: 12px;
+    padding: 0px;
+   
+
+}
+.school-2
+{       
+         
+    flex: 1;    
+   /* background:#8195CB; */
+    border:none;
+    margin: 10px;
+    border-radius: 12px;
+    margin-top: -75px;
+    margin-left: 30px;
+     }
+
+.school-3
+{   
+    flex: 1;
+    /*background:#022447;*/ 
+    border:none;
+    margin: 10px;
+    border-radius: 12px;
+    margin-top: -75px;
+    margin-left: 20px;
+}
+.school-4
+{       
+  flex: 1;
+    /*background:#022447;*/ 
+    border:none;
+    margin: 10px;
+    border-radius: 12px;
+    margin-top: -75px;
+    margin-left: 20px;
+} 
+
+/* ############# schools Icons ####################*/
+
+.comperhensive img  /* icon of first school */
+{
+    height: 50%; 
+    margin-top: 5%;
+    align-items: center;
+}
+
+.primary img /* icon of second school */ 
+{
+    height: 50%;
+    margin-top: 5%;
+    align-items: center;
+}
+
+.high img  /* icon of the third school */ 
+{
+    height: 50%;
+    margin-top: 5%;
+    margin-left: 8%;
+    align-items: center;
+}
+
+.secondary img /* the last school */ 
+{
+    height: 50%;
+    margin-top: 5%;
+    align-items: center;
+}
+
+/*################ Homeschooling _Text ########################*/ 
+.homeschooling { 
+    width: 90%;
+    margin: auto;
+}
+.homeschooling h1
+{
+    align-content: center;
+     font-size: 42px;
+    font-weight: 1000;
+    background: #022447;
+   /* background: linear-gradient(to right,#00A089, #022447); */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+ margin: 5% 2% 0% 30%;}
+
+.homeschooling p
+{
+    font-size: 16pt;
+    font-weight: 500;
+    color: #022447;
+    margin: 2% 5% 1% 10%;
+    line-height: 26pt;
+    
+}
+.homeschooling .last-s
+{
+    font-size: 16pt;;
+    font-weight: 500;
+    color: #022447;
+   margin: -0.5% 2% 0% 30%;
+}
+
+/*##################### Courses Booking Center ################*/ 
+.booking-text
+{
+    width: 90%;
+    margin: auto;
+}
+.booking-text h1
+{
+ align-content: center;
+     font-size: 42px;
+    font-weight: 800;
+    background: #022447;
+   background: linear-gradient(to right,#022447, #022447); 
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+   margin: 4% 2% 1% 30%;
+}
+
+.booking-text p
+{
+    font-size: 22px;
+    font-weight: 500;
+    color: #022447;
+    /*margin: 10px 300px 10px 400px; */
+    line-height: 26pt;
+ margin: 2% 20% 1% 15%;
+    text-align: center;
+    align-content: center;
+}
+
+/*################## pictures of courses #####################*/
+
+.booking-pics
+{
+    width: 80%;
+    margin: auto;
+    overflow: auto;
+}
+
+.cours-pic
+{
+    margin: 20px;
+    border: none;
+    float: left;
+    width: 300px;
+}
+
+.cours-pic img
+{
+    width: 100%;
+    height: auto;
+    border-radius: 50px 10px 50px 10px;
+}
+
+
+.cours-link 
+{
+    
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    color: #022447;
+    font-size: 14pt;
+    font-weight: 1000; 
+    margin: 2% 1% 2% 8%;
+    padding: 10px 70px 5px;
+
+}
+
+/* Booking button */ 
+.booking-button 
+{
+    width: 25%;
+    margin: auto;
+    padding: 60px 60px 100px 45px;
+    overflow: auto;
+    
+    
+}
+
+.bb
+{
+    border: 2px solid #00A089;
+   background: #00A089; 
+    color: white;
+    width: 250px;
+    height: 60px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    text-align: center;
+    font-size: 22pt;
+    font-weight: 1000;
+
+}
+
+
+/* ########## hover effect of Booking buttons ########## */
+.bb:hover
+{
+  background-color: transparent; 
+    
+  color: #00A089; 
+  border: 3px solid #00A089;
+}
+
+
+/*################### Section under of the Booking ###########*/ 
+
+
+.under-booking
+{
+   
+    display: flex;
+    justify-content: space-around;
+    z-index: -1;
+    width: 100%;
+    margin: auto;
+    height: 200px;
+    background:#3E606F;
+}
+
+
+
+
+
+
+.icon-under1 img
+{
+    
+        width: 100%;
+        height: 70px;
+        border:none;
+        padding: 0px;
+        margin: 10px;
+        align-content: center;
+
+}
+
+
+.icon-under2 img
+{
+    
+        width: 100%;
+        height: 70px;
+        border:none;
+        padding: 0px;
+        margin: 10px;
+        align-content: center;
+    font-weight: 200;
+
+}
+
+
+.icon-under3 img
+{
+    
+        width: 100%;
+        height: 70px;
+        border:none;
+        padding: 0px;
+        margin: 10px;
+        align-content: center;
+
+}
+
+
+.icon-under4 img
+{
+    
+        width: 100%;
+        height: 70px;
+        border:none;
+        padding: 0px;
+        margin: 10px;
+        align-content: center;
+
+}
+
+
+/* texte icon under Booking */ 
+
+.texte
+{
+   
+    display: flex;
+    justify-content: space-around;
+    z-index: -1;
+    width: 100%;
+    margin: auto;
+    height: 200px;
+    
+}
+
+
+.text1
+{
+    
+    width: 100%;
+    height: 70px;
+    border:none;
+    padding: 0px;
+    margin: -100px 15px;
+    align-content: center;
+    text-align: center;
+    font-weight: 1000;
+    color: #022447;
+
+}
+
+.text2
+{
+    
+        width: 100%;
+        height: 70px;
+        border:none;
+        padding: 0px;
+        margin: -100px 15px;
+        align-content: center;
+        text-align: center;
+        font-weight: 1000;
+        color: #022447;
+
+
+
+}
+
+.text3
+{
+    
+    width: 100%;
+    height: 70px;
+    border:none;
+    padding: 0px;
+    margin: -100px 15px;
+    align-content: center;
+    text-align: center;
+    font-weight: 1000;
+    color: #022447;
+
+
+
+}
+
+.text4
+{
+    
+        width: 100%;
+        height: 70px;
+        border:none;
+        padding: 0px;
+        margin: -105px 1px;
+        align-content: center;
+        text-align: center;
+        font-weight: 1000;
+        color: #022447;
+}
+/*################ Footer ##############################*/
+footer
+{
+
+    width: 100%;
+    height: 400px;
+    background:#022447; 
+    border:none;
+    padding: 0px;
+    margin: auto;
+    z-index: -1;
+    margin-top: -215px;
+}
+
+
+.logo-footer
+{
+    display: flex;
+    width: auto;
+
+}
+
+.logo-footer
+{
+    flex: 1; /* make a space */
+    margin-top:15px;
+}
+
+
+
+/*################# Mission ############################*/
+
+.mission
+{
+    width: 50%;
+    margin: -70px 60px 5px 60px; 
+    color: white;
+}
+
+.mission h2
+{
+   font-size: 16pt;
+    font-weight: 50;
+}
+.mission p
+{
+text-align: left;
+    width: 45%;
+}
+
+/* vertical line */ 
+.vl {
+width: 10%;    
+  border-left: 2px solid white;
+  height: 300px;
+  margin-left: 400px;
+    margin-top: -150px;
+}
+
+/* Sicial icons */ 
+
+.social
+{
+    margin-left: 450px;
+    margin-top: -250px;
+}
+
+.social p
+{
+    width: 20%;
+    text-align: center;
+    margin-bottom: 25px;
+    font-weight: 1000;
+    color: white;
+    font-size: 16pt;
+}
+
+.social img
+{
+    width: 50px;
+    height: 50px;
+    margin: 0px 5px 0px 5px;
+}
+
+
+/*  INFOS FOOTER */ 
+
+.info-footer
+{
+    width: 20%;
+    margin-left: 850px;
+    margin-top: -120px;
+}
+
+.info-footer p 
+{
+    text-align: center;
+    font-weight: 1000;
+    color: white;
+    font-size: 16pt;
+    margin-top: -150px;
+}
+
+/* infos links footer */ 
+
+.info-link2
+{
+    justify-content: space-around; /* make space among Nav */
+    list-style: none; /* remove the points */ 
+   
+    
+   
+}
+.info-link2
+{
+    color: white;
+    text-decoration: none; /* remove underline */ 
+     padding: 20px;
+    text-align: center;
+    margin-top: -20px;
+    line-height: 24pt;
+    font-size: 12pt;
+    
+}
+
+
+/* ##################Chat Button ###############*/ 
+
+/* Button used to open the chat form - fixed at the bottom of the page */
+
+.open-button
+{
+    background-color: #F79420;
+    color: white;
+    padding: 2px 50px 2px;
+    cursor: pointer;
+    opacity: 0.8;
+    right: 20px;
+    width: 200px;
+    border: none;
+    position: fixed;
+    bottom: 23px;
+    border-radius: 19px;
+    font-size: 14pt;
+    text-align: center;
+    
+}
+
+
+.open-button img
+{
+    width: 55%;
+    height: 50px;
+    
+}
+/* the popup chat -hidden by default */ 
+.chat-popup
+{
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+}
+
+
+/* Add styles to the form container */ 
+
+.form-container
+{
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+    color: #022447;
+}
+.form-container h1
+{
+   font-size: 18pt;
+}
+
+/* Full-width textarea */ 
+
+.form-container textarea
+{
+    width: 100%;
+    margin: 10px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+    resize: none;
+    min-height: 200px;
+    
+}
+
+/* When the teatxarea gets focus, do something */ 
+.form-container textarea:focus{
+    background-color: #ddd;
+    outline: none;
+}
+
+/* set a style for the submit/send button */ 
+.form-container .btn
+{
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    height: 50px;
+    /*padding: 22px 20px;*/
+    margin-bottom: 10px;
+    opacity: 0.8;
+    font-size: 12pt;
+    
+}
+
+/* Add a red background color to the cancel button */
+.form-container .cancel
+{
+    background-color: #8C191C;
+}
+
+/* Add some hover effect to button */
+
+.form-container .btn:hover, .open-button:hover
+{
+    opacity: 1;
+}
+
+
+/* ##########Login css ############## */ 
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+  padding-top: 5%;
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #E6E6E6;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: none;
+  width: 50%; /* Could be more or less, depending on screen size */
+    border-radius: 12px;
+    height: 80%;
+}
+
+/* The Close Button */
+.close {
+  /* Position it in the top right corner outside of the modal */
+    position: inherit;
+    right: 25px;
+    margin: 7% 25% 2% 10%;
+    top: 0;
+    color: #000;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+
+/* Close button on hover */
+.close:hover, .close:focus {
+    color: red;
+    cursor: pointer;
+}
+
+/* Add Zoom Animation */
+.animate {
+  -webkit-animation: animatezoom 0.6s;
+  animation: animatezoom 0.6s
+}
+
+@-webkit-keyframes animatezoom {
+  from {-webkit-transform: scale(0)}
+  to {-webkit-transform: scale(1)}
+}
+
+@keyframes animatezoom {
+  from {transform: scale(0)}
+  to {transform: scale(1)}
+}
+
+.imgcontainer img
+{
+    width: 40%;
+    height: 50px;
+    align-items: center;
+    margin: 7% 8% 2% 30%;
+    
+}
+
+
+/* #######*/
+.user1
+{
+    margin: 8% 18% 2% 2%;
+    color: #022447;
+}
+.user2
+{
+    display: flex;
+    margin: 2% 2% 2% 2%;
+    width: 96%;
+    height: 40px;
+    border-radius: 4px;
+    background: #F2F2F2;
+    border: 1px solid #F2F2F2;
+}
+
+.psw1
+{
+    margin: 2% 2% 2% 2%;
+    color: #022447;
+}
+.psw2
+{
+    display: flex;
+    margin: 2% 2% 2% 2%;
+    width: 96%;
+    height: 40px;
+    border-radius: 4px;
+    background: #F2F2F2;
+    border: 1px solid #F2F2F2;
+}
+
+.logIn
+{
+    margin: 2% 2% 2% 2%;
+    width: 96%;
+    width: 96%;
+    height: 45px;
+    border-radius: 4px;
+    background: #224966;
+    border: 1px solid #224966;
+    text-align: center;
+    color: white;
+    font-size: 18pt
+}
+
+.cancelbtn
+{
+    margin: 7% 2% 2% 2%;
+    width: 15%;
+    height: 40px;
+    border: 1px solid #8C191C;
+    background: #8C191C;
+    border-radius: 4px;
+    font-size: 14pt;
+    color: white;
+}
+.psw
+{
+    margin: 2% 2% 2% 55%;
+    color: #224966;
+    font-weight: 600;   
+}
+
+.rem
+{
+    margin: 2% 2% 2% 2%;
+    color: #224966;
+    font-weight: 600;
+
+  
+}
+
+
+
+
+
+
+/*################## CLASS_ROOM ################# */ 
+
+
+.header1
+{
+    background: #022447;
+    width: 100%;
+    height: 100px;
+    display: flex;
+    position: fixed; 
+    /*z-index: -1;*/
+}
+
+
+
+.logo-con2, .search1, dropdown2
+{
+    display: flex
+}
+/* logo */ 
+
+.logo-con2
+{
+flex: 1;
+margin: 25px 0px 10px 0px; 
+    
+}
+
+/* search */ 
+
+.search1
+{
+    height: 50px;
+    flex: 1;
+    border-radius: 15px;
+    text-align: center;
+    border: none;
+    margin: 20px 20px 20px 100px;
+    
+    
+}
+
+.dropdown2
+
+{
+    margin: 10px 20px 10px 100px;
+}
+
+
+
+/* the name of profile in class room */ 
+
+
+/* Box left */ 
+
+/*.box-left, .box-mid, .box-right{ display: flex}*/
+.box-left
+{
+    height: 500%;
+    width: 11.5%;
+    background-color: #3E606F;
+    position: fixed;
+    z-index: -1;
+    flex: 1;
+}
+
+.box-mid
+{
+    height: 500%;
+    width: 28.5%;
+    background-color: white;
+    position: fixed;
+    z-index: -1; 
+    flex: 2;
+    margin-left: 158px;
+}
+.box-right
+{
+    height: 500%;
+    width: 60%;
+    background-color:#D9D6D2;
+    position:fixed;
+    z-index: -1;
+    flex: 2;
+    margin-left: 547px;
+}
+
+
+/* Icons in the Class-Room */ 
+
+.clRoom-icons
+{
+    height: 500%;
+   /* position: fixed;*/
+}
+.not-img
+{
+    width: 30px;
+    height: 30px;
+    /*background: yellow;*/
+    margin: -170px 50px 50px 100px;
+    position: fixed;
+    
+}
+
+.not-link
+{
+    position: absolute;
+     margin: 302px 4px 10px -40px;
+   
+}
+
+.not-p
+{
+    /*background: yellow;*/
+    position: fixed;;
+    margin: 160px -150px 10px 41px;
+    font-weight: 100;
+    color: white;
+    font-size: 10pt;
+}
+
+/* Teams Layout */ 
+
+.t-img
+{
+    width: 30px;
+    height: 30px;
+    /*background: yellow;*/
+    margin: -90px 0px 50px 25px;
+    position: fixed;
+    cursor: pointer;
+    padding: 20px 67px; 
+}
+
+.t-link
+{
+    position: absolute;
+     margin: 302px 4px 10px -40px;
+     
+   
+}
+
+.t-p
+{
+    /*background: yellow;*/
+    position: fixed;;
+    margin: 260px -150px 10px 55px;
+    font-weight: 100;
+    color: white;
+    font-size: 10pt;
+}
+
+/* chat icon Layout */ 
+
+.ch-img
+{
+    width: 30px;
+    height: 30px;
+    /*background: yellow;*/
+    margin:7px 0px 50px 20px;
+    position: fixed;
+     cursor: pointer; /* for the hover effect */
+    padding: 20px 67px;
+    
+}
+
+.ch-link
+{
+    position: absolute;
+     margin: 302px 4px 10px -40px;
+   
+}
+
+.ch-p
+{
+    /*background: yellow;*/
+    position: fixed;
+    margin: 362px -150px 10px 55px;
+    font-weight: 100;
+    color: white;
+    font-size: 10pt;
+}
+
+/* Files icon layout */ 
+
+.f-img
+{
+    width: 30px;
+    height: 30px;
+    /*background: yellow;*/
+    margin: 110px 0px 50px 25px;
+    position: fixed;
+    cursor: pointer;
+    padding: 20px 67px;
+    
+}
+
+.f-link
+{
+    position: absolute;
+     margin: 302px 4px 10px -40px;
+   
+}
+
+.f-p
+{
+    /*background: yellow;*/
+    position: fixed;
+    margin: 462px -150px 10px 55px;
+    font-weight: 100;
+    color: white;
+    font-size: 10pt;
+}
+
+/* help icon layout */ 
+
+.hel-img
+{
+    width: 30px;
+    height: 30px;
+    /*background: yellow;*/
+    margin: 300px 45px 50px 95px;
+    position: fixed;
+    
+}
+
+.hel-link
+{
+    position: absolute;
+     margin: 302px 4px 10px -40px;
+   
+}
+
+.hel-p
+{
+    /*background: yellow;*/
+    position: fixed;
+    margin: 635px -150px 10px 55px;
+    font-weight: 100;
+    color: white;
+    font-size: 10pt;
+}
+
+.active, .t-img:hover {
+  background-color: #022447;
+  color: white;
+}
+
+
+.active, .ch-img:hover {
+  background-color: #022447;
+  color: white;
+}
+
+.active, .f-img:hover {
+  background-color: #022447;
+  color: white;
+}
+/* ################# TEAMS ROOM ############## */ 
+
+.teamsLay
+{
+    /*background: yellow;*/
+        margin: 635px -150px 10px 55px;
+
+    
+}
+
+.im
+{
+        width: 250px;
+        height: 250px;
+        position: absolute;
+        margin: 300px 30px 50px 850px;
+        background: none;
+}
+
+.add-team
+{
+     position: absolute;
+    margin: 540px 50px 50px 890px;
+    text-decoration: none;
+     font-size: 16pt;
+    color: #022447; 
+    
+    
+}
+
+.team-title
+{
+    position: absolute;
+    margin: 150px 0px 50px 175px;
+    font-weight: 800;
+    font-size: 16pt;
+    color: #022447;  
+}
+
+.welcome
+{
+    position: absolute;
+        margin: 280px 30px 50px 870px;
+    font-weight: 800;
+    font-size: 16pt;
+    color: #022447; 
+}
+.team-list 
+{
+   position: absolute;
+    margin: 220px 0px 50px 180px;
+    font-weight: 500;
+    font-size: 12pt;
+    color: #022447; 
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.teamA
+{
+     position: absolute;
+    margin: 250px 20px 20px 175px ;
+     text-decoration: none;
+    color: #022447;
+    font-weight: 600; 
+}
+
+.teamB 
+{
+     position: absolute;
+    margin: 300px 20px 20px 175px ;
+     text-decoration: none;
+    color: #022447;
+    font-weight: 600; 
+}
+
+
+.teamC 
+{
+     position: absolute;
+    margin: 350px 20px 20px 175px ;
+     text-decoration: none;
+    color: #022447;
+    font-weight: 600; 
+}
+.mat{ 
+    color: #00A089;
+}
+
+.your-team
+{
+    position: absolute;
+     margin: 210px 20px 20px 175px ;
+    color: #00A089;
+    font-size: 12pt;
+    font-weight: 800;
+}
+
+/*################# Chat Layout ############*/ 
+
+.addChat-im
+{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    margin: 77px 0px 20px 500px;
+}
+
+.addChat
+{
+    width: 300px;
+    height: 25px;
+    position: absolute;
+    margin: 150px 0px 10px 240px;
+    
+    border-radius: 4px;
+    text-align: center;
+    border: 2px solid gray;
+    font-size: 8pt;
+}
+
+.chat-title
+{
+      position: absolute;
+    margin: 150px 0px 50px 175px;
+    font-weight: 800;
+    font-size: 16pt;
+    color: #022447; 
+}
+/*
+.ch-containe
+{
+    margin: 145px 0px 10px 600px;
+    display: flex;
+    flex-direction: row;
+    padding: 25p
+ 
+}
+*/
+.videoPic
+{
+    width: 30px;
+    height: 30px;
+    margin: 140px 0px 10px 870px;
+    position: absolute;
+    
+}
+
+.voicePic
+{
+    width: 30px;
+    height: 30px;
+    margin: 140px 0px 10px 820px;
+    position: absolute;    
+}
+
+.pots
+{
+    position: absolute;
+    margin: 150px 0px 10px 920px;
+    font-weight: 600;
+    color: #5F7D95;
+ 
+}
+
+.chatting
+{
+
+    position: absolute;
+    margin: 150px 0px 10px 750px;
+    font-weight: 600;
+    color: #5F7D95;
+    background-color: white;
+ 
+}
+
+.pro-im
+{
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+        margin: 135px 0px 10px 570px;
+    position: absolute;
+
+}
+.about1
+{
+    position: absolute;
+    margin: 140px 0px 10px 612px;
+    color: #5F7D95;
+
+}
+.name-pro
+{
+    font-weight: 800;
+}
+
+/* line gray */ 
+
+.lineG
+{
+    width: 100%;
+    height: 0px;
+    border: 0.25px solid darkgray;
+    margin-top: 200px;
+    position: fixed;
+}
+
+.online1
+{
+    color: green;
+}
+
+/* list */ 
+
+.list {
+    position: absolute;
+    margin: 250px 20px 50px 150px;
+        width: 50%;
+       display: flex;
+  flex-direction: column;
+}
+
+
+
+    
+.clearfix {
+      padding-bottom: 5px;
+  
+    }
+
+  
+  .img-pro1 {
+    float: left;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+  }
+  
+  .about {
+    float: left;
+    margin-top: 8px;
+  }
+  
+  .about {
+    padding-left: 8px;
+      color: #5F7D95;
+      
+  }
+  
+  .status {
+    color: $red;
+  }
+  
+.online
+{
+    color: green;
+}
+
+.offline
+{
+    color: red;
+}
+.name
+{
+    font-weight: 800;
+}
+
+/* ###############*/
+.container1
+{
+    position: absolute;
+    margin: 250px 20px 50px 570px;
+    border:none;
+    background-color: white;
+    border-radius: 15px;
+    padding: 5px 7px;
+    }
+.darker
+{
+    position: absolute;
+    margin: 370px 20px 50px 980px;
+     background-color: #3E606F;
+    border-radius: 15px;
+    padding: 5px 7px;
+
+    
+}
+.im1
+{
+    width: 30px;
+    height: 30px;
+    float: left;
+    border-radius: 50%;
+}
+
+.im2
+{
+    width: 30px;
+    height: 30px;
+    float: right;
+    border-radius: 50%;
+}
+
+.pra1
+{
+    color:#3E606F;
+}
+
+.pra
+{
+    color:white;
+}
+
+.time-left
+{
+    color: white;
+    font-size: 10pt;
+   
+}
+
+.time-right{ 
+    color: #3E606F;
+    font-size: 10pt;
+
+}
+
+.time-right{ float: right;}
+
+
+
+
+
+/* ################## Courses Page ###########################*/
+
+
+.header2
+{
+    background: #022447;
+    width: 100%;
+    height: 15%;
+    display: flex;
+    position: fixed; 
+    /*z-index: -1;*/
+}
+
+
+
+.logo-con3, dropdown3
+{
+    display: flex;
+}
+/* logo */ 
+
+.logo-con3
+{
+flex: 1;
+margin: 25px 0px 10px 0px; 
+/* Muter User */ 
+    
+}
+.dropbtn3 {
+  background-color: #F79421;
+  color: white;
+  padding: 10px;
+  font-size: 12pt;
+  border: none;
+  cursor: pointer;
+    border-radius: 10px
+}
+
+.dropbtn3:hover, .dropbtn3:focus {
+  background-color: #3E606F;
+}
+
+.dropdown3 {
+  position: relative;
+  display: inline-block;
+    margin: 2% 2% 2% 2%;
+}
+
+.dropdown-content3 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content3 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown3 a:hover {background-color: #ddd;}
+
+.show3 {display: block;}
+
+/* ############### MAin Courses ###############*/
+
+.main3
+{
+    width: 100%;
+    height: 100%;
+    background-color: #E6E6E6;
+    
+}
+
+/* subjuect choose */ 
+.sub-wal
+{
+    position: absolute;
+    margin: 8% 10% 5% 35%;
+    color: #022447;
+}
+
+
+/* mathematics */ 
+
+
+.math
+{
+    position: absolute;
+     margin: 15% 2% 5% 4%;
+    color:#022447;   
+}
+
+
+/* physics */
+.phy
+{
+    position: absolute;
+     margin: 15% 2% 5% 25%;
+    color:#022447;   
+}
+/* biology */ 
+.bio
+{
+    position: absolute;
+     margin: 15% 2% 5% 50%;
+    color:#022447;   
+}
+/* langauges */ 
+.lang
+{
+    position: absolute;
+     margin: 15% 2% 5% 75%;
+    color:#022447;   
+}
+
+
+/* ###### Submit ##### */ 
+
+.sub3
+{
+    position: absolute;
+     margin: 40% 2% 5% 75%;
+    background-color: #022447;
+    border: none;
+    padding: 16px 32px;
+    font-size: 12pt; 
+    border-radius: 4px;
+}
+
+.subm{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+
+}
+/* Check Boxes of the Topics */
+.container3 {
+  display: block;
+  position: relative;
+  padding-left: 35px;
+  margin-bottom: 12px;
+  cursor: pointer;
+  font-size: 22px;
+    
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+
+}
+    
+
+
+/* Hide the browser's default checkbox */
+.container3 input {
+  position: absolute;
+  opacity: 0;
+  cursor: pointer;
+  height: 0;
+  width: 0;
+}
+
+.checkmark1 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 25px;
+  width: 25px;
+  background-color: #eee;
+}
+
+
+/* When the checkbox is checked, add a blue background */
+.container3 input:checked ~ .checkmark1 {
+  background-color: #224966;
+} 
+
+
+/* On mouse-over, add a grey background color */
+.container3:hover input .checkmark1 {
+  background-color: white;
+}
+/* Create the checkmark/indicator (hidden when not checked) */
+.checkmark1::after{
+  content: "";
+  position: absolute;
+  display: none;
+}
+
+
+/* Style the checkmark/indicator */
+.container3 .checkmark1:after {
+  left: 9px;
+  top: 5px;
+  width: 5px;
+  height: 10px;
+  border: solid white;
+  border-width: 0 3px 3px 0;
+  -webkit-transform: rotate(45deg);
+  -ms-transform: rotate(45deg);
+  transform: rotate(45deg);
+}
+
+
+/* ################### Muster User Class Room #################*/ 
+
+.dropbtn2 {
+  background-color: #F79421;
+  color: white;
+  padding: 10px;
+  font-size: 12pt;
+  border: none;
+  cursor: pointer;
+    border-radius: 10px;
+}
+
+.dropbtn2:hover, .dropbtn2:focus {
+  background-color: #3E606F;
+}
+
+.dropdown2 {
+  position: relative;
+  display: inline-block;
+    margin: 2% 2% 2% 2%;
+}
+
+.dropdown-content2 {
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  overflow: auto;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content2 a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown2 a:hover {background-color: #ddd;}
+
+.show2 {display: block;}
+
+
+
+/*#################### SIGN UP PAGE ########################*/ 
+
+
+.body4
+{
+     width: 100%;
+    height: 100%;
+    background-color: #E6E6E5;
+}
+
+
+.header4
+{
+    /*  background: #022447;*/
+    width: 100%;
+    z-index: -1;
+    position: fixed;
+}
+
+.logo5
+{
+    width: 10%;
+    margin: 5% 5% 5% 5%;
+    z-index: 9;
+     cursor: pointer;
+    opacity: 2;
+}
+
+.title4
+{
+    width: 90%;
+    display: flex;
+    margin: auto;
+}
+
+.up-para
+{
+    text-align: left;
+    margin: 10% 5% 1% 15%;
+    font-size: 18pt;
+    color:#00A089
+}
+
+.tit-icon
+{
+    height: 70px;
+        margin: 10% 2% 5% 2%;
+
+}
+
+.reg
+{
+    margin: 2% 1% 2% 42%;
+    font-size: 22pt;
+    font-weight: 1000;
+    color: #F79421;
+}
+
+.regBox
+{
+    z-index: -1;
+    width: 50%;
+    background: #00A089;
+    margin: 2% 5% 2% 19%;
+    padding: 1% 5% 2% 5%;
+    opacity: 0.7;
+    overflow:auto;
+    border: 1px solid #F79421;
+    display: flex;
+    flex-direction: column;
+}
+
+.label4
+{
+    margin-top: 3%;
+    color: white;
+    font-weight: 700;
+}
+.eml4 {
+    
+    padding: 16px 160px;
+    border-radius: 4px;
+    border: 1px solid #F79421;
+    margin: 3% 1% 3% 12%;
+}
+
+.pass4, .nam4
+{
+    padding: 16px 160px;
+    border-radius: 4px;
+    border: 1px solid #F79421;
+     margin: 3% 1% 3% 8%;
+}
+
+
+
+#person4{
+        padding: 16px 100px;
+    border-radius: 4px;
+    border: 1px solid #F79421;
+    font-size: 14pt;
+    font-weight: 600;
+      margin: 3% 3% 3% 11%;
+    background-color: gray;
+    
+}
+#schoolType{
+      padding: 16px 35px;
+    border-radius: 4px;
+    border: 1px solid #F79421;
+    font-size: 14pt;
+    font-weight: 600;
+      margin: 3% 3% 3% 3%;
+    background-color: gray;
+    
+}
+
+#cls
+{
+     padding:16px 100px;
+    border-radius: 4px;
+    border: 1px solid #F79421;
+    font-size: 14pt;
+    font-weight: 600;
+        margin: 3% 3% 3% 3%;
+    background-color: gray;
+}
+
+.pers4, .clss, .schType, .privicy
+{
+    color: white;
+    font-weight: 700;
+}
+
+.prv
+{
+           margin: 3% 3% 3% 11%;
+
+ 
+}
+
+.prvText
+{
+    text-align: left;
+    margin: -6% 3% 3% 23%;
+}
+
+/* submit and cancel */ 
+
+
+.submit4
+{
+    position: absolute;
+     margin: 2% 2% 5% 69.5%;
+    background-color: #F79421;
+    border: none;
+    padding: 16px 40px;
+    font-size: 12pt; 
+    border-radius: 4px;
+}
+
+.subm4{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+
+}
+
+
+
+
+.cancel4
+{
+    position: absolute;
+     margin: 2% 2% 5% 19%;
+    background-color: #F79421;
+    border: none;
+    padding: 16px 40px;
+    font-size: 12pt; 
+    border-radius: 4px;
+}
+
+.can4{
+    text-decoration: none;
+    cursor: pointer;
+    color: white;
+
+}
+/*################### to Responsive Website ################## */ 
+@media screen and(max-width:1024px)
+{
+    .presentation
+    {
+    flex-direction: column;    
+    }
+    .introduction
+    {
+        margin-top:5vh;
+        text-align: center;
+    }
+    
+    .sign-text h
+    {
+        font-size: 18px;
+    }
+    
+    .sign-text p
+    {
+        font-size: 12px;
+    }
+    
+    .cta
+    {
+        padding: 5px 0px 0px 0px;
+    }
+    
+    .cover-1 img
+    {
+        height: 20%;
+    }
+    
+    .box-top
+    {
+        width: 80%;
+    }
+    
+    .nav-links{
+        font-size: 10px;
+    }
+    
+      .modal
+    {
+        height: 20%;
+        width: 20%;
+    }
+    
+    .modal-content {
+  background-color: #E6E6E6;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: none;
+  width: 20%; /* Could be more or less, depending on screen size */
+    border-radius: 12px;
+
+    
+}
+     .user2
+{
+    width: 50%;
+    height: 10%;
+}   
+}
+
+@media screen and(min-width: 360px)
+{
+    .presentation
+    {
+    flex-direction: column;    
+    }
+    .introduction
+    {
+        margin-top: 5vh;
+        text-align: center;
+    }
+    
+    .sign-text h
+    {
+        font-size: 24px;
+    }
+    
+    .sign-text p
+    {
+        font-size: 16px;
+    }
+    
+    .cta
+    {
+        padding: 10px 0px 0px 0px;
+    }
+    
+    .cover-1 img
+    {
+        height: 60%;
+    } 
+    
+    .modal
+    {
+        height: 20%;
+        width: 20%;
+    }
+    
+    .modal-content {
+  background-color: #E6E6E6;
+  margin: 5px auto; /* 15% from the top and centered */
+  border: none;
+  width: 20%; /* Could be more or less, depending on screen size */
+    border-radius: 12px;
+    height: 40%;
+}
+    .user2
+{
+    width: 50%;
+    height: 10%;
+}
+    
+    .psw
+{
+    margin: 2% 2% 2% 30%;
+    color: #224966;
+    font-weight: 600;   
+}
+}
+
+

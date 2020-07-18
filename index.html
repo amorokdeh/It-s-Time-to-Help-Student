@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+    <html>
+    <head>
+<title>it's time to help Students</title>  <!-- das ist Teitel meines Projects-->
+<!-- to fit all kind of devices , cellphone, tablett and PC -->        
+<meta name="viewport" content="width=device-width, initial-scale=1.0">        
+<meta charset="utf-8"> <!-- unterstuetzt Latanisch und Arabisch sparachen -->
+<meta name="description" content=" Diese ist die Gestaltung unsers Projects GSII in HTML, CSS und Java Script">
+<link rel="stylesheet" href="GSII_Project.css"> <!-- HTML_Datei mit CSS_Datei verbinden -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link href='http://fonts.googleapis.com/css?family=Roboto' rel='stylesheet' type='text/css'> 
+<script src="GSII_Project.js"> </script>
+<script src="https://www.w3schools.com/lib/w3.js"></script>        
+               
+</head>
+<body>
+    <header >
+       
+       <div class="logo-container">
+        <img src="Logo/Our-Logo.svg" alt="logo"/>  
+       </div>
+        <nav>
+            <ul class="nav-links">
+                <li ><a class="nav-links" href="#">HOME</a></li>
+                <li><a class="nav-links" href="#">TOPICS</a></li>
+                <li><a class="nav-links" href="#">FQA</a></li>
+                 <li><a class="nav-links" href="#">INFO</a> </li>
+                
+            </ul>  
+        </nav>
+        
+    </header>
+    <!-- the Sign in and up section --> 
+    <main>
+        <section class="presentation">
+            <div class="introduction">
+                <div class="sign-text">
+                <h1> Support the Sudent</h1>
+                <p>Digital. Education. Schooling</p>
+                </div>    
+                <div class="cta">
+                <button class="sign-in" onclick="document.getElementById('id01').style.display='block'"> Sign in </button>
+                <button class="sign-up" onclick="myFunction4()"><a class="sinUp" href="./htmlPages/signUp.html">Sign Up</a></button>    
+                </div>
+            </div>
+
+                <div class="cover-1"> 
+                <img src="Head-pic/Hauptbild-Clipart.png" alt="clipart" />
+                </div> <!-- the cover blue -->
+            
+            <!-- Sign in Sy --> 
+            <!-- The Modal -->
+<div id="id01" class="modal">
+  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+    
+     <!-- Modal Content -->
+      <form class="modal-content animate" action="/action_page.php">
+          <div class="imgcontainer">
+      <img src="Logo/Our-Logo.png" alt="Avatar" class="avatar">
+    </div>
+          
+          <div class="container">
+            
+      <label class="user1" for="uname"><b>Username</b></label>
+      <input class="user2" type="text" placeholder="Enter Username or E-mail" name="uname" required>
+       
+              <div class="pass">
+
+      <label class="psw1" for="psw"><b>Password</b></label>
+      <input class="psw2" type="password" placeholder="Enter your Password" name="psw" required>
+        </div>          
+      <button class ="logIn" type="submit" > <a class="logIn1" href="./htmlPages/classRoom.html">Login</a></button>
+      <label>
+        <input class="rem" type="checkbox" checked="checked" name="remember"> Remember me
+      </label>
+            </div>
+        
+             <div class="container" style="background-color:#container">
+      <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+      <span class="psw">Forgot <a href="#">password?</a></span>
+    </div>
+  </form>
+</div>
+           
+        </section>
+        
+        <!-- the blue box head -->
+                 <div class="box-top"></div>
+
+        
+        <!-- School Section --> 
+        
+        <section class="schools">
+            <div class="primary"><img src="School-types/PrimarySchool_icon.png" alt=""/></div>
+            <div class="secondary"><img src="School-types/SecondarySchool_icon.png" alt=""/></div>
+            <div class="comperhensive"><img src="School-types/ComSchool.png" alt=""/></div>
+            <div class="high"><img src="School-types/highSchool.png" alt=""/></div>
+        </section>
+        <!-- School-Links -->
+        <p class="school-links">
+            <b class="school-1"><a class="school-links" href="./htmlPages/courses.html" target="_blank">Primary School</a></b>
+            <b class="school-2"><a class="school-links" href="./htmlPages/courses.html" target="_blank">Secondary School</a> </b>
+            <b class="school-3"><a class="school-links" href="./htmlPages/courses.html" target="_blank"> Comperhensive School</a> </b>
+            <b class="school-4"><a class="school-links" href="./htmlPages/courses.html" target="_blank">High School</a> </b>
+        </p>
+        
+        <!-- the section of Homeschooling text in the main page -->
+        <div class="homeschooling"> 
+            <h1>Why Homeschooling</h1>
+            
+              <p>&nbsp;Homeschooling online offers your child a number of unique  features that pay off for learning:<br>
+            .Individual and educational support from trained teachers .Learning as a self-determined experience<br>
+                  .Flexible lesson times and location-independent access .Encourage your child to use digital media<br></p>
+            <p class="last-s">.Exciting learning methods with digital tools</p> 
+            
+            <!-- the section of Booking in the main page -->
+            
+        </div>
+        <div class="booking-text">
+            <h1>Innovative online courses </h1>
+            <p> With our innovative online courses we support children with a broad spectrum of IT & technology, creativity, as well as support in all early support</p>
+            </div>
+        <div class="booking-pics">
+            <div class="cours-pic">
+                <img src="Cours-pics/Programming.png" alt=""/>
+                <a class="cours-link" href="#" target="_blank">Programming</a>
+            </div>
+            
+            <div class="cours-pic">
+                <img class="tronics" src="Cours-pics/Electronics.jpg" alt=""/>
+                <a class="cours-link" href="#" target="_blank">Electronics</a>
+            </div>
+            
+            <div class="cours-pic">
+                <img class="botics" src="Cours-pics/Robotics.jpg" alt=""/>
+                <a class="cours-link" href="#" target="_blank"> Robotics</a>
+            </div> 
+        </div>
+        
+        <!-- Booking Button -->
+        <div v class="booking-button">
+            <button class="bb" >Book Now  </button>
+        </div>
+            
+        <!-- Section under of the Booking section --> 
+        <div class="box-m"></div>
+        
+        <div class="under-booking">
+            <div class="icon-under1">
+            <img src="icons-UnderBooking/motivation.svg"/>
+            </div> 
+            
+             <div class="icon-under2">
+            <img src="icons-UnderBooking/gift.svg"/> 
+            </div>
+            
+             <div class="icon-under3">
+            <img src="icons-UnderBooking/test.svg"/>
+            </div>
+            
+             <div class="icon-under4">
+            <img src="icons-UnderBooking/group-of-students.svg"/>
+           </div>  
+        </div>
+        
+        <div class="texte">
+            <p class="text1"> Motivation<br>Learn interactively and with direct feedback.</p>
+             <p class="text2">Free of Fees<br> High quality, but free of charge. </p>
+             <p class="text3">Exam oriented<br>preparing for Tests and Exams </p>
+             <p class="text4">Groups<br>Working and learning in groups</p>
+        </div>
+        
+       <!-- ----------------------- Footer ------------------------- --> 
+        <footer>
+        
+         <div class="logo-footer">
+            <img src="Logo/Our-Logo.svg" alt="logo"/>    
+       </div>
+       
+            
+            <div class="mission">
+                <h2> MISSION</h2>
+                <p> Motivating and high level of learning depending on digital´s learning to reach the best efficiency</p>
+            
+            </div>
+            <div class="vl"></div> <!-- vertical line -->
+            
+            <div class="social">
+            <p> SOCIAL</p>
+            <div class="social-icon">
+                <img src="social_icons/facebook.png" alt=""/>
+                <img src="social_icons/linkedin(1).png" alt="" />
+                <img src="social_icons/youtube-logo.png" alt="" />
+            </div>    
+            </div>
+            
+            <!-- Inofs footer -->
+            
+            <div class="info-footer" > 
+                <p> INFOS</p>
+                 <ul class="info-link2">
+                <li ><a class="info-link2" href="#">Contact</a></li>
+                <li><a class="info-link2" href="#">About us</a></li>
+                <li><a class="info-link2" href="#">Concept</a></li>  
+            </ul>
+            
+            </div>
+            
+            
+            <!--   Live chatt  -->
+            
+       <button class="open-button" onclick="openForm()">Live Chat
+        <img src="chatIcon/speech-bubble_icon.png" alt="chat" />    
+        </button>
+            <div class="chat-popup" id="myForm">
+            <form action="/action_page.php" class="form-container">
+            <h1> Live Chatting</h1>
+            <label for="msg"><b> Message</b></label>
+            <textarea placeholder="Type message.." name="msg" required></textarea>
+            <button type="submit" class="btn">Send</button>
+            <button type="button" class="btn cancel" onclick="closeForm()"> Close </button>
+            </form>
+        </div>
+
+
+        </footer>
+            
+         
+    </main>
+        
+</body>
+</html>
